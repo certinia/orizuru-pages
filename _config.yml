@@ -1,1 +1,12 @@
+title: Orizuru
+description: "Streamlined communication between Heroku dynos / other worker processes"
+repo_url: "https://github.com/financialforcedev/orizuru"
+
+exclude:
+  - README.md
+  - Gemfile
+  - CNAME
+include:
+  - _pages
+
 theme: jekyll-theme-cayman
