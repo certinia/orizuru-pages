@@ -6,11 +6,49 @@
 .page-header {
     background-color: #005FB2;
     background-image: linear-gradient(120deg, #0C8EFF, #005FB2);
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 3rem 0;
+    margin-bottom: 1rem;
 }
 
 .logo {
     height: auto;
-    max-width: 30%;
+    max-width: 25%;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.top-bar .repo-controls {
+    flex: 1 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    & a {
+        margin: 0;
+    }
+}
+
+.header-nav-item+.header-nav-item {
+     margin-left: 20px;
+}
+
+.header-nav a {
+    font-size: 1.1rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    &.active,
+    &:hover {
+        background-color: rgba(0, 57, 107, 0.2);
+    }
 }
 
 .main-content h1,
