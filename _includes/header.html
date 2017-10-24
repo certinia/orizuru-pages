@@ -3,7 +3,7 @@
         <img class="logo" src="{{ site.baseurl }}/assets/images/FF-logo-white+white-RGB.png"/>
         <div class="repo-controls">
             {% if site.github.is_project_page %}
-            <a href="{{ site.repo_url| default: site.github.repository_url }}" class="btn">View on GitHub</a>
+            <a target="_blank" href="{{ site.repo_url| default: site.github.repository_url }}" class="btn">View on GitHub</a>
             {% endif %}
             {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
