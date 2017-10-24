@@ -12,6 +12,7 @@
 .top-bar {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 0 3rem 0;
     margin-bottom: 1rem;
@@ -24,13 +25,19 @@
     margin-right: 20px;
 }
 
-.top-bar .repo-controls {
-    flex: 1 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.repo-controls {
+    float: right;
     & a {
         margin: 0;
+        color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.08);
+        border-color: rgba(0, 0, 0, 0.2);
+    }
+    & a:hover {
+        color: rgba(0, 0, 0, 0.8);
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-color: rgba(0, 0, 0, 0.3);
     }
 }
 
@@ -63,4 +70,8 @@
 .main-content h5,
 .main-content h6 {
     color: #005FB2;
+}
+
+.main-content h1:first-of-type {
+    margin-top: 0;
 }
