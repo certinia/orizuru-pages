@@ -1,0 +1,17 @@
+<section class="page-header">
+    <div class="top-bar">
+        <img class="logo" src="{{ site.baseurl }}/assets/images/FF-logo-white+white-RGB.png"/>
+    </div>
+
+    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+    
+    <nav class="header-nav">
+        {% capture first_segment %}{{ page.url | remove_first: "/" | split: "/" | first }}{% endcapture %}
+        <a class="header-nav-item {% if first_segment == '' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+        <a class="header-nav-item {% if first_segment == 'core' %}active{% endif %}" href="{{ site.baseurl }}/core/">Orizuru</a>
+        <a class="header-nav-item {% if first_segment == 'transport' %}active{% endif %}" href="{{ site.baseurl }}/transport/">Transport</a>  
+        <a class="header-nav-item {% if first_segment == 'auth' %}active{% endif %}" href="{{ site.baseurl }}/auth/">Auth</a> 
+        <a class="header-nav-item {% if first_segment == 'sample' %}active{% endif %}" href="{{ site.baseurl }}/sample/">Sample</a> 
+    </nav>
+</section>

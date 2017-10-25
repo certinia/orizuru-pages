@@ -1,1 +1,12 @@
+title: Orizuru
+description: "Streamlined communication between Heroku dynos / other worker processes"
+
+exclude:
+  - README.md
+  - Gemfile
+  - CNAME
+  - Script
+include:
+  - _pages
+
 theme: jekyll-theme-cayman

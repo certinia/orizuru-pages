@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+
+    <section class="main-content">
+      {% if page.repo_url %}
+      <div class="repo-controls">
+          <a target="_blank" href="{{ page.repo_url| default: site.github.repository_url }}" class="btn">View on GitHub</a>
+      </div>
+      {% endif %}
+      {{ content }}
+
+      {% include footer.html %}
+    </section>
+  </body>
+</html>
