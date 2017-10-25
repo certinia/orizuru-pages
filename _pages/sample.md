@@ -4,3 +4,5 @@ permalink: /sample/
 ---
 
 # Sample App
+
+Content coming soon.

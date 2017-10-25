@@ -2,9 +2,8 @@
 permalink: /
 layout: default
 lang: en
-repo_url: "https://github.com/financialforcedev/orizuru"
 ---
 
-# Orizuru
+# Home
 
 Content coming soon.

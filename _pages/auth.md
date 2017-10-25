@@ -4,3 +4,5 @@ permalink: /auth/
 ---
 
 # Authentication
+
+Content coming soon.
