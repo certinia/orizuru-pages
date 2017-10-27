@@ -1,5 +1,5 @@
 title: Orizuru
-description: "Streamlined communication between Heroku dynos / other worker processes"
+description: "Making it easy to add Heroku compute power to your Salesforce Applications"
 
 exclude:
   - README.md
