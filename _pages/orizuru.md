@@ -1,10 +1,10 @@
 ---
-permalink: /core/
+permalink: /orizuru/
 layout: default
 lang: en
 repo_url: "https://github.com/financialforcedev/orizuru"
 ---
 
-# Orizuru Core
+# Orizuru
 
 Content coming soon.
