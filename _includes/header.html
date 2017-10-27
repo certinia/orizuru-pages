@@ -9,7 +9,7 @@
     <nav class="header-nav">
         {% capture first_segment %}{{ page.url | remove_first: "/" | split: "/" | first }}{% endcapture %}
         <a class="header-nav-item {% if first_segment == '' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
-        <a class="header-nav-item {% if first_segment == 'core' %}active{% endif %}" href="{{ site.baseurl }}/core/">Orizuru</a>
+        <a class="header-nav-item {% if first_segment == 'orizuru' %}active{% endif %}" href="{{ site.baseurl }}/orizuru/">Orizuru</a>
         <a class="header-nav-item {% if first_segment == 'transport' %}active{% endif %}" href="{{ site.baseurl }}/transport/">Transport</a>  
         <a class="header-nav-item {% if first_segment == 'auth' %}active{% endif %}" href="{{ site.baseurl }}/auth/">Auth</a> 
         <a class="header-nav-item {% if first_segment == 'sample' %}active{% endif %}" href="{{ site.baseurl }}/sample/">Sample</a> 
