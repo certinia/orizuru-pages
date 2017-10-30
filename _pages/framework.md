@@ -3,6 +3,6 @@ title: Framework
 permalink: /framework/
 ---
 
-# Orizuru Framwework
+# Orizuru Framework
 
 Content coming soon.
