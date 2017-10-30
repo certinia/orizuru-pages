@@ -1,10 +1,10 @@
 ---
-permalink: /orizuru/
+permalink: /tools/
 layout: default
 lang: en
-repo_url: "https://github.com/financialforcedev/orizuru"
+repo_url: "https://github.com/financialforcedev/orizuru-tools"
 ---
 
-# Orizuru
+# Orizuru Tools
 
 Content coming soon.
