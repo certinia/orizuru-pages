@@ -9,9 +9,9 @@
     <nav class="header-nav">
         {% capture first_segment %}{{ page.url | remove_first: "/" | split: "/" | first }}{% endcapture %}
         <a class="header-nav-item {% if first_segment == '' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+        <a class="header-nav-item {% if first_segment == 'dreamforce' %}active{% endif %}" href="{{ site.baseurl }}/dreamforce/">Dreamforce</a> 
         <a class="header-nav-item {% if first_segment == 'framework' %}active{% endif %}" href="{{ site.baseurl }}/framework/">Framework</a>  
-        <a class="header-nav-item {% if first_segment == 'orizuru' %}active{% endif %}" href="{{ site.baseurl }}/orizuru/">Orizuru</a>
-        <a class="header-nav-item {% if first_segment == 'auth' %}active{% endif %}" href="{{ site.baseurl }}/auth/">Auth</a> 
+        <a class="header-nav-item {% if first_segment == 'tools' %}active{% endif %}" href="{{ site.baseurl }}/tools/">Tools</a>
         <a class="header-nav-item {% if first_segment == 'sample' %}active{% endif %}" href="{{ site.baseurl }}/sample/">Sample</a> 
     </nav>
 </section>
