@@ -1,4 +1,5 @@
 ---
+title: Welcome to Orizuru
 permalink: /
 layout: default
 lang: en

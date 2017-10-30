@@ -1,4 +1,5 @@
 ---
+title: Tools
 permalink: /tools/
 layout: default
 lang: en
