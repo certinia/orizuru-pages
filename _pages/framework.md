@@ -8,7 +8,7 @@ lang: en
 # Orizuru Framework
 
 ## Orizuru
-| [View on Github](https://github.com/financialforcedev/orizuru-sample-app) | [View on NPM](https://www.npmjs.com/package/@financialforcedev/orizuru) |
+| [View on Github](https://github.com/financialforcedev/orizuru) | [View on NPM](https://www.npmjs.com/package/@financialforcedev/orizuru) |
 
 One of the key concepts for scalable Heroku applications is the principle of asynchronous or background workers:
 
@@ -34,12 +34,12 @@ Orizuru depends upon a message queue backing service. This library provides Oriz
 
 Provides Orizuru support to use RabbitMQ as the message queue for Java workers.
 
-## Orizuru Auth
+## Orizuru Authentication
 | [View on Github](https://github.com/financialforcedev/orizuru-auth) | [View on NPM](https://www.npmjs.com/package/@financialforcedev/orizuru-auth) |
 
 Provides an authentication mechanism for use in Heroku and designed specifically to make use of Salesforce as an identity provider - facilitating identification and validation of users, and the facility to do authenticated calls back into Salesforce.
 
-## Orizuru Auth
+## Orizuru OpenAPI
 | [View on Github](https://github.com/financialforcedev/orizuru-openapi) | [View on NPM](https://www.npmjs.com/package/@financialforcedev/orizuru-openapi) |
 
 Provides support for OpenAPI/Swagger on the Heroku APIs - which allows the APIs to be used as a Salesforce External Service.
