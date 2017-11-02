@@ -15,7 +15,7 @@ Salesforce have invited FinancialForce to to talk about the Orizuru project at t
 
 [Beat Governor Limits By Taking Your Compute Processes to Heroku](https://success.salesforce.com/Sessions#/session/a2q3A000001yuLtQAI)  
 Wednesday, November 8, 9:00 AM - 9:40 AM  
-In this session FinancialForce use a simplified sample aqpplication to walk through the principles that underpin Orizuru.
+In this session FinancialForce use a simplified sample application to walk through the principles that underpin Orizuru.
 
 [FinancialForce DevTalks: Salesforce Hybrid Architecture](https://www.meetup.com/FinancialForce-DevTalks/events/244179550/)  
 Wednesday, November 8, 4:30 PM to 7:00 PM  
