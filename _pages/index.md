@@ -11,17 +11,17 @@ Salesforce *Heroku* is an elastic cloud compute platform which perfectly complem
 
 Heroku is a great choice where processes would be a poor fit to run in Apex - either because of the memory or CPU time they would consume in Apex, or because publicly available Java, Node, Python or Ruby libraries significantlyreduce the amound of code you would need to write.
 
-*FinancialForce Orizuru sets out to make it as simple as possible to add Heroku compute power to your Salesforce applications ..*
+*FinancialForce Orizuru sets out to make it as simple as possible to add Heroku compute power to your Salesforce applications*
 
 Orizuru has three main parts:
 
-First, we we have a number of freely available packages which provide features which are frequently needed when building Salesforce-Heroku hybrid projects. These include identity, authentication and process flow. These packages are written in Node.js and available via NPM. 
+First, we we have a number of freely available packages which provide features which are frequently needed when building Salesforce-Heroku hybrid projects. These include identity, authentication and process flow. These packages are written in Node.js and available via NPM.  
 [This is the Orizuru framework](../framework/).
 
-Second, we have built some command line tools that save a heap of time starting new projects. The tools allow you to create your initial project, include the Orizuru framework, and configure security. 
+Second, we have built some command line tools that save a heap of time starting new projects. The tools allow you to create your initial project, include the Orizuru framework, and configure security.  
 [These are the Orizuru tools](../tools/).
 
-Third, we are providing a sample application which demonstrates the Orizuru framework in a realistic and relatable way. 
+Third, we are providing a sample application which demonstrates the Orizuru framework in a realistic and relatable way.  
 [This is he Orizuru Sample App](../sample/).
 
 ## Why "Orizuru"?

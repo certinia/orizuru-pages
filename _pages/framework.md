@@ -12,7 +12,7 @@ lang: en
 
 One of the key concepts for scalable Heroku applications is the principle of asynchronous or background workers:
 
-> Background jobs are key to building truly scalable web apps as they transfer both time and computationally intensive tasks from the web layer to a background process outside the user request/response lifecycle. This ensures that web requests can always return immediately and reduces compounding performance issues that occur when requests become backlogged.
+> Background jobs are key to building truly scalable web apps as they transfer both time and computationally intensive tasks from the web layer to a background process outside the user request/response lifecycle. This ensures that web requests can always return immediately and reduces compounding performance issues that occur when requests become backlogged.  
 [Heroku Dev Center - Worker Dynos, Background Jobs and Queueing](https://devcenter.heroku.com/articles/background-jobs-queueing)
 
 This is the main Orizuru package and provides the means to define the schema for a work request, and facilitate the transport of the work request from Heroku API through a message queue to the worker process. 
