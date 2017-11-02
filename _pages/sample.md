@@ -6,7 +6,7 @@ lang: en
 ---
 
 # Orizuru Sample App
-[View the Sample App on Github](https://github.com/financialforcedev/orizuru-sample-app)
+| [View the Sample App on Github](https://github.com/financialforcedev/orizuru-sample-app) |
 
 This sample app uses the Orizuru framework to solve a real world business problem:
 
