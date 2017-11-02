@@ -21,4 +21,4 @@ In this session FinancialForce use a simplified sample aqpplication to walk thro
 Wednesday, November 8, 4:30 PM to 7:00 PM  
 In this extended evening session, we will walk through Orizuru in greater depth - with a particular focus on the tools and packages.
 
-[See all the other great Dreamforce sessions from FinancialForce](https://dreamforce.financialforce.com/sessions/)
+[See all the other great Dreamforce sessions from FinancialForce!](https://dreamforce.financialforce.com/sessions/)
