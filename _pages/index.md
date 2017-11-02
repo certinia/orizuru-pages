@@ -15,7 +15,7 @@ Heroku is a great choice where processes would be a poor fit to run in Apex - ei
 
 Orizuru has three main parts:
 
-First, we we have a number of freely available packages which provide features which are frequently needed when building Salesforce-Heroku hybrid projects. These include identity, authentication and process flow. These packages are written in Node.js and available via NPM.  
+First, we we have a number of freely available packages which provide features which are frequently needed when building Salesforce-Heroku hybrid projects. These include identity, authentication and process flow. These packages are written in Node.js (available via NPM) and Java.  
 [This is the Orizuru framework](../framework/).
 
 Second, we have built some command line tools that save time when starting new projects. The tools allow you to create your initial project, include the Orizuru framework, and configure security.  
@@ -25,4 +25,4 @@ Third, we are providing a sample application which demonstrates the Orizuru fram
 [This is the Orizuru Sample App](../sample/).
 
 ## Why "Orizuru"?
-Orizuru means "folded crane" and is the most recognizable and most followed origami pattern. FinancialForce Orizuru is offered as a pattern for building Salesforce Hybrid applications. Japanese words are often used at Heroku; the name *Heroku* is a combination of "heroic" and "haiku" and is itself a nod to Yukihiro Matsumoto (a.k.a. Matz), best known for the Ruby programming language, which was for a while the only programming language supported by Heroku.
+Orizuru means "folded crane" and is the most recognizable and most followed origami pattern. FinancialForce Orizuru is offered as a pattern for building Salesforce Hybrid applications. Japanese words are often used at Heroku; the name *Heroku* is a combination of "heroic" and "haiku" and is itself a nod to Yukihiro "Matz" Matsumoto, best known for the Ruby programming language, which was the first programming language to be supported by Heroku.

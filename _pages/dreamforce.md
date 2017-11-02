@@ -11,7 +11,7 @@ There are several Dreamforce 17 sessions where you can learn more about Orizuru:
 
 [Scale Your Business Application with Heroku](https://success.salesforce.com/Sessions#/session/a2q3A000001yt8PQAQ)  
 Tuesday, November 7, 12:00 PM - 12:40 PM  
-Salesforce have invited FinancialForce to to talk about the Orizuru project at this session. We will demonstrate the Orizuru Sample Application and discuss the benefits of Heroku and Orizuru.
+Salesforce have invited FinancialForce to talk about the Orizuru project at this session. We will demonstrate the Orizuru Sample Application and discuss the benefits of Heroku and Orizuru.
 
 [Beat Governor Limits By Taking Your Compute Processes to Heroku](https://success.salesforce.com/Sessions#/session/a2q3A000001yuLtQAI)  
 Wednesday, November 8, 9:00 AM - 9:40 AM  
