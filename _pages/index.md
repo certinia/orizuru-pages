@@ -7,7 +7,7 @@ lang: en
 
 # Welcome to Orizuru
 
-Salesforce [Heroku](https://devcenter.heroku.com/) is an elastic cloud compute platform which perfectly complements the core Salesforce platform. With Heroku you can choose which programming language you want to use based on the skills you have, the suitability of the language to the type of work you are doing, or by the availability of existing libraries and frameworks for each language. In addition, the Heroku platform allows you to smoothly scale to your computing demands - scaling *up* memory and CPU capabilities, or scaling *out* the number of parallel processors you have available.
+Salesforce [Heroku](https://developer.salesforce.com/platform/heroku) is an elastic cloud compute platform which perfectly complements the core Salesforce platform. With Heroku you can choose which programming language you want to use based on the skills you have, the suitability of the language to the type of work you are doing, or by the availability of existing libraries and frameworks for each language. In addition, the Heroku platform allows you to smoothly scale to your computing demands - scaling *up* memory and CPU capabilities, or scaling *out* the number of parallel processors you have available.
 
 Heroku is a great choice where processes would be a poor fit to run in Apex - either because of the memory or CPU time they would consume in Apex, or because publicly available Java, Node, Python or Ruby libraries significantly reduce the amount of code you would need to write.
 
