@@ -1,5 +1,4 @@
-## ORIZURU-PAGES
+## Orizuru Github Pages
 
-This site simply exists to support legacy links to http://orizuru.financialforce.com
+This pages site is for the [Orizuru Framework](https://github.com/financialforcedev/orizuru) and it's accompanying extensions. Available at <https://orizuru.financialforce.com>.
 
-Pages should all redirect to orizuru.github.io
