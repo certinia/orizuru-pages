@@ -1,7 +1,11 @@
 .page-header {
     background-color: $dark-blue;
     background-image: none;
-    -webkit-font-smoothing: antialiased;
+
+    .project-name {
+        font-family: $heading-font, sans-serif;
+        font-weight: normal !important;
+    }
 }
 
 .top-bar .logo {
