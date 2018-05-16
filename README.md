@@ -1,4 +1,4 @@
-## Orizuru Github Pages
+## Orizuru Pages
 
-This pages site is for the [Orizuru Framework](https://github.com/financialforcedev/orizuru) and it's accompanying extensions. Available at <https://orizuru.financialforce.com>.
+This pages site is for [Orizuru](https://github.com/financialforcedev/orizuru). Available at <https://orizuru.financialforce.com>.
 
