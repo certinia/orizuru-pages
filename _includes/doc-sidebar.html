@@ -1,0 +1,10 @@
+<section class="navbar column">    
+    <nav>
+        {% for group in site.data.documentation.doc-groups %}
+            <h3>{{ group.title }}</h3>
+            {% for doc in group.docs %}
+                <a class="{% if page.url == doc.url %}active{% endif %}" href="{{ doc.url }}" alt="{{ doc.title }}">{{ doc.title }}</a>
+            {% endfor %}
+        {% endfor %}
+    </nav>
+</section>

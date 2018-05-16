@@ -1,0 +1,18 @@
+doc-title: Orizuru Documentation
+doc-groups:
+
+- title: Getting Started
+  docs:
+  - title: Introduction
+    url: /docs/introduction/
+  - title: Package Overview
+    url: /docs/package-overview/
+
+- title: Tutorial
+  docs:
+  - title: Prerequisites
+    url: /docs/prerequisites/
+  - title: Building Your First App
+    url: /docs/tutorial-building-your-first-app/
+  - title: Troubleshooting
+    url: /docs/troubleshooting/

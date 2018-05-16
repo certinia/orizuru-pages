@@ -1,0 +1,18 @@
+.page-header {
+    background-color: $dark-blue;
+    background-image: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-bar .logo {
+    height: auto;
+    @media screen and (min-width: 64em) {
+        width: 275px;
+    }
+    @media screen and (min-width: 42em) and (max-width: 64em) {
+        width: 250px;
+    }
+    @media screen and (max-width: 42em) {
+        width: 200px;
+    }
+}

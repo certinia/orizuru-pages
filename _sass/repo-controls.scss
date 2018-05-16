@@ -1,0 +1,15 @@
+.repo-controls {
+    float: right;
+    & a {
+        margin: 0;
+        color: $black-thick-glass;
+        background-color: $black-thinnest-glass;
+        border-color: $black-thin-glass;
+    }
+    & a:hover {
+        color: $black-thick-glass;
+        text-decoration: none;
+        background-color: $black-thin-glass;
+        border-color: $black-medium-glass;
+    }
+}

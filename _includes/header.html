@@ -1,0 +1,11 @@
+<section class="navbar row">
+    <img src="{{ site.baseurl }}/assets/images/ff-logo-white.png"/>
+    <div class="logo">{{ site.title | default: site.github.repository_name }}</div>
+    <nav>
+        {% capture first_segment %}{{ page.url | remove_first: "/" | split: "/" | first }}{% endcapture %}
+        <a class="header-nav-item {% if first_segment == '' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+        <a class="header-nav-item {% if first_segment == 'docs' %}active{% endif %}" href="{{ site.baseurl }}/docs/introduction/">Docs</a> 
+        <a class="header-nav-item {% if first_segment == 'dreamforce' %}active{% endif %}" href="{{ site.baseurl }}/dreamforce/">Dreamforce</a> 
+        <a class="header-nav-item {% if first_segment == 'sample' %}active{% endif %}" href="{{ site.baseurl }}/sample/">Sample</a> 
+    </nav>
+</section>

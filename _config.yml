@@ -5,8 +5,25 @@ exclude:
   - README.md
   - Gemfile
   - CNAME
-  - Script
+  - script
 include:
   - _pages
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+defaults:
+- scope:
+      path: ""
+      type: docs
+  values:
+      layout: default
+      isDoc: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 theme: jekyll-theme-cayman
