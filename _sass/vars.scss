@@ -10,7 +10,7 @@ $header-bg-color-secondary: #155799 !default;
 // Text
 $section-headings-color: #333333 !default;
 $body-text-color: #606c71 !default;
-$body-link-color: #1e6bb8 !default;
+$body-link-color: #E9004C !default;
 $blockquote-text-color: #819198 !default;
 
 // Code
@@ -29,9 +29,13 @@ $heading-font: 'Campton-Bold';
 $subheading-font: 'Campton-SemiBold';
 $body-font: 'Campton-Book';
 
+$hero-background: linear-gradient(90deg, #2C4FD9, #E9004C);
+
 // block colours
 $main-font-color: #333333;
-$dark-blue: #333333;
+$active-link-color: #E9004C;
+
+$dark-blue: #1e252b;
 $medium-blue: #005FB2;
 $light-blue: #0C8EFF;
 $light-gray: #eeeeee;

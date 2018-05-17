@@ -1,6 +1,5 @@
 .page-header {
-    background-color: $dark-blue;
-    background-image: none;
+    background: $hero-background;
 
     .project-name {
         font-family: $heading-font, sans-serif;
@@ -10,13 +9,13 @@
 
 .top-bar .logo {
     height: auto;
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: $large-breakpoint) {
         width: 275px;
     }
-    @media screen and (min-width: 42em) and (max-width: 64em) {
+    @media screen and (min-width: $medium-breakpoint) and (max-width: $large-breakpoint) {
         width: 250px;
     }
-    @media screen and (max-width: 42em) {
+    @media screen and (max-width: $medium-breakpoint) {
         width: 200px;
     }
 }
