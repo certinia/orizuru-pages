@@ -50,7 +50,7 @@ packages:
 | Package | Links |
 |---------|:-----:|
 {% for package in page.packages -%}
-|__{{ package.name }}__<br/>_Language: {{ package.lang }}_<br/><br/>{{ package.desc }}|[![View in Github][gh] Github]({{ package.gh }}){% if package.npm %}<br/>---<br/>[![View NPM Package][npm]]({{ package.npm }}){% endif %}|
+|__{{ package.name }}__<br/>_Language: {{ package.lang }}_<br/><br/>{{ package.desc }}<br/><br/>|[![View in Github][gh] Github]({{ package.gh }}){% if package.npm %}<br/>---<br/>[![View NPM Package][npm]]({{ package.npm }}){% endif %}|
 {% endfor %}
 
 
