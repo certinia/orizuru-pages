@@ -9,13 +9,15 @@
 
 .top-bar .logo {
     height: auto;
-    @media screen and (min-width: $large-breakpoint) {
+    @include large {
         width: 275px;
     }
-    @media screen and (min-width: $medium-breakpoint) and (max-width: $large-breakpoint) {
+
+    @include medium {
         width: 250px;
     }
-    @media screen and (max-width: $medium-breakpoint) {
+
+    @include small {
         width: 200px;
     }
 }

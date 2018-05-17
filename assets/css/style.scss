@@ -1,11 +1,16 @@
 ---
 ---
-
+// Variables for sass
 @import "vars";
 @import "fonts";
-@import "jekyll-theme-cayman";
 
+// Normalize CSS to fix common problems : https://github.com/necolas/normalize.css
+@import "normalize";
+// Github code syntax highlighting
+@import "rouge-github";
+
+// Start regular css
+@import "base-theme";
 @import "navbar";
 @import "hero";
-@import "main-content";
 @import "repo-controls";
