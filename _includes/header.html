@@ -1,6 +1,13 @@
 <section class="navbar row">
-    <img src="{{ site.baseurl }}/assets/images/ffdisk.svg"/>
-    <div class="logo">{{ site.title | default: site.github.repository_name }}</div>
+    {% if page.isHomepage %}
+       {% assign logo_class = 'logo-off' %}
+    {% endif %}
+
+    <div class="logo {{ logo_class }}">
+        <img src="{{ site.baseurl }}/assets/images/ffdisk.svg"/>
+        <h3 class="logo-name">{{ site.title | default: site.github.repository_name }}</h3>
+    </div>
+
     <nav>
         {% capture first_segment %}{{ page.url | remove_first: "/" | split: "/" | first }}{% endcapture %}
         <a class="header-nav-item {% if first_segment == '' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
