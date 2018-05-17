@@ -28,4 +28,5 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-github-metadata
 
