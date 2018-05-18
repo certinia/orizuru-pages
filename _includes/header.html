@@ -9,6 +9,7 @@
         <h3 class="logo-name">{{ site.title | default: site.github.repository_name }}</h3>
     </div>
 
+    <!-- TODO Collapse these nav items into a drop down list for mobile -->
     <nav class="{{ nav_class }}">
         {% capture first_segment %}{{ page.url | remove_first: "/" | split: "/" | first }}{% endcapture %}
         <a class="header-nav-item {% if first_segment == '' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
