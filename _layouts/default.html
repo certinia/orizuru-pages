@@ -15,7 +15,10 @@
       <section class="main-content">
         {% if page.repo_url %}
         <div class="repo-controls">
-            <a target="_blank" href="{{ page.repo_url| default: site.github.repository_url }}">View on GitHub</a>
+            <a target="_blank" href="{{ page.repo_url| default: site.github.repository_url }}">
+              <img src="/assets/images/github.svg" alt="View on Github">
+              View on GitHub
+            </a>
         </div>
         {% endif %}
 

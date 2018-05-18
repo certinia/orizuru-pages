@@ -3,10 +3,10 @@ title: Sample App
 permalink: /sample/
 layout: default
 lang: en
+repo_url: https://github.com/financialforcedev/orizuru-sample-app
 ---
 
 # Orizuru Sample App
-[View on Github](https://github.com/financialforcedev/orizuru-sample-app)
 
 This sample app uses the Orizuru framework to solve a real world business problem:
 
