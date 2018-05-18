@@ -20,7 +20,7 @@
     }
     a:hover {
         text-decoration: none;
-        background-color: $btn-bg-color-hover;
-        border-color: $btn-border-color-hover;
+        background-color: darken($btn-bg-color, 4%);
+        border-color: darken($btn-border-color, 4%);
     }
 }
