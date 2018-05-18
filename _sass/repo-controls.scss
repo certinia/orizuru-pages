@@ -1,15 +1,26 @@
 .repo-controls {
     float: right;
-    & a {
-        margin: 0;
-        color: $black-thick-glass;
-        background-color: $black-thinnest-glass;
-        border-color: $black-thin-glass;
+
+    img {
+        display: inline-block;
+        vertical-align: text-bottom;
+        height: 1.5rem;
     }
-    & a:hover {
-        color: $black-thick-glass;
+
+    a {
+        display: inline-block;
+        line-height: 1.1rem;
+        margin: 0;
+        color: $btn-color;
+        background-color: $btn-bg-color;
+        border: $btn-border-color 1px solid;
+        border-radius: 0.3rem;
+        transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+        padding: 0.5rem 0.75rem;
+    }
+    a:hover {
         text-decoration: none;
-        background-color: $black-thin-glass;
-        border-color: $black-medium-glass;
+        background-color: $btn-bg-color-hover;
+        border-color: $btn-border-color-hover;
     }
 }

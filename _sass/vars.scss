@@ -1,54 +1,46 @@
 // Breakpoints
-$large-breakpoint: 64em !default;
-$medium-breakpoint: 42em !default;
+$large-breakpoint: 64em;
+$medium-breakpoint: 42em;
 
-// Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #333333 !default;
-$header-bg-color-secondary: #155799 !default;
-
-// Text
-$section-headings-color: #333333 !default;
-$body-text-color: #606c71 !default;
-$body-link-color: #E9004C !default;
-$blockquote-text-color: #819198 !default;
-
-// Code
-$code-bg-color: #f3f6fa !default;
-$code-text-color: #567482 !default;
-
-// Borders
-$border-color: #dce6f0 !default;
-$table-border-color: #e9ebec !default;
-$hr-border-color: #eff0f1 !default;
-
-// NEW vars
-
-// fonts
+// Fonts
+$default-fonts: Helvetica, Arial, sans-serif;
 $heading-font: 'Campton-Bold';
 $subheading-font: 'Campton-SemiBold';
 $body-font: 'Campton-Book';
 
-$hero-background: linear-gradient(90deg, #2C4FD9, #E9004C);
+// Headers
+$header-heading-color: #FFFFFF;
+$header-bg-color-primary: #2C4FD9;
+$header-bg-color-secondary: #E9004C;
 
-// block colours
-$main-font-color: #333333;
-$active-link-color: #E9004C;
+// Text
+$section-headings-color: #333333;
+$body-text-color: #333333;
+$body-link-color: #E9004C;
+$blockquote-text-color: #819198;
 
-$dark-blue: #1e252b;
-$medium-blue: #005FB2;
-$light-blue: #0C8EFF;
-$light-gray: #eeeeee;
-$purple: #7B3DCB;
-$steel: #B3B3B3;
-$snow: #FFFFFF;
+// Code
+$code-bg-color: #F3F6FA;
+$code-text-color: #567482;
+$code-fonts: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
-// transparent colours
-$black-thick-glass: rbga(0, 0, 0, 0.8);
-$black-medium-glass: rbga(0, 0, 0, 0.3);
-$black-thin-glass: rbga(0, 0, 0, 0.2);
-$black-thinnest-glass: rbga(0, 0, 0, 0.1);
-$blue-glass: rbga(0, 57, 107, 0.2);
+// Table
+$table-secondary-color: #EEEEEE;
 
-// sizes
-$min-navbar-column-width: 200px;
+// Borders
+$border-color: #DCE6F0;
+$table-border-color: #E9EBEC;
+$hr-border-color: #EFF0F1;
+
+// Button
+$btn-color: #1E252B;
+$btn-bg-color: #DBD9D6;
+$btn-border-color: #CAC8C8;
+
+$btn-bg-color-hover: #CAC8C8;
+$btn-border-color-hover: #99999A;
+
+// Nav
+$nav-hover-color: #DBD9D6;
+$nav-fg-color: #FFFFFF;
+$nav-bg-color: #1E252B;
