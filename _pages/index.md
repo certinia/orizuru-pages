@@ -1,9 +1,7 @@
 ---
 title: Welcome to Orizuru
 permalink: /
-layout: default
-isHomepage: true
-lang: en
+home: true
 ---
 
 # Welcome to Orizuru

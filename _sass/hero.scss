@@ -1,18 +1,38 @@
-.page-header {
+.hero-section {
+    background: linear-gradient(90deg, $header-bg-color-primary, $header-bg-color-secondary);
+    min-height: 1rem;
+}
+
+.hero {
     text-align: center;
     color: $header-heading-color;
-    background: linear-gradient(90deg, $header-bg-color-primary, $header-bg-color-secondary);
-
+    
     @include large {
-        padding: 5rem 6rem;
+        padding: 3rem 4rem;
     }
 
     @include medium {
-        padding: 3rem 4rem;
+        padding: 2rem 3rem;
     }
 
     @include small {
         padding: 2rem 1rem;
+    }
+}
+
+.hero-logo img {
+    height: auto;
+    
+    @include large {
+        width: 28rem;
+    }
+
+    @include medium {
+        width: 20rem;
+    }
+
+    @include small {
+        width: 16rem;
     }
 }
 
@@ -48,21 +68,5 @@
 
     @include small {
         font-size: 1rem;
-    }
-}
-
-.hero-logo img {
-    height: auto;
-    
-    @include large {
-        width: 28rem;
-    }
-
-    @include medium {
-        width: 20rem;
-    }
-
-    @include small {
-        width: 16rem;
     }
 }

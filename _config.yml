@@ -13,12 +13,21 @@ collections:
   docs:
     output: true
     permalink: /docs/:path/
+  pages:
+    permalink: /:path/
 
 defaults:
-- scope:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  -
+    scope:
       path: ""
       type: docs
-  values:
+    values:
       layout: default
       isDoc: true
 

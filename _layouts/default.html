@@ -2,16 +2,11 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   {% include head.html %}
   <body>
-    {% include header.html %}
-    {% if page.isHomepage %}
-      {% include hero.html %}
-    {% endif %}
+    {% include sidebar.html %}
 
     <div class="content">
-      {% if page.isDoc %}
-        {% include doc-sidebar.html %}
-      {% endif %}
-
+      {% include hero.html %}
+      
       <section class="main-content">
         {% if page.repo_url %}
         <div class="repo-controls">

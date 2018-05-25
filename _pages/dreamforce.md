@@ -1,7 +1,5 @@
 ---
 title: Dreamforce
-permalink: /dreamforce/
-layout: default
 lang: en
 ---
 

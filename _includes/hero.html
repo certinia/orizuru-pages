@@ -1,8 +1,12 @@
-<section class="page-header">
-    <div class="hero-logo">
-        <img src="{{ site.baseurl }}/assets/images/fflogo-white.svg"/>
-    </div>
+<section class="hero-section">
+    {% if page.home %}
+    <div class="hero">
+        <div class="hero-logo">
+            <img src="{{ site.baseurl }}/assets/images/fflogo-white.svg"/>
+        </div>
 
-    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>        
+        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+    </div>
+    {% endif %}
 </section>
