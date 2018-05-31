@@ -1,6 +1,5 @@
 ---
 title: Dreamforce
-lang: en
 ---
 
 # Orizuru at Dreamforce

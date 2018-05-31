@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     line-height: 3rem;
-    padding: 0.5rem 0;
+    padding: 0.75rem 0;
     justify-content: center;
 
     img {
-        padding: 0 0.5rem 0 0;
+        padding: 0 0.25rem 0 0;
         height: 2.5rem;
     }
 
@@ -22,13 +22,17 @@
     background-color: $nav-bg-color;
     color: $nav-fg-color;
     font-size: 1rem;
+    text-align: center;
+    
 
     @include large {
         min-width: 16rem;
+        flex-direction: column;
     }
 
     @include medium {
         min-width: 14rem;
+        flex-direction: column;
     }
 
     @include small {
@@ -79,20 +83,22 @@
             display: flex;
             flex-direction: column;
             position: fixed;
-            top: 0;
-            left: 0;
+            top: 4rem;
 
             @include large {
                 width: 16rem;
                 padding: 1rem 1.5rem;
+                left: 0;
             }
         
             @include medium {
                 width: 14rem;
                 padding: 1rem 1.5rem;
+                left: 0;
             }
         
             @include small {
+                right: 0;
             }
         }
     }

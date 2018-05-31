@@ -6,14 +6,13 @@ exclude:
   - Gemfile
   - CNAME
   - script
-include:
-  - _pages
 
 collections:
   docs:
     output: true
     permalink: /docs/:path/
   pages:
+    output: true
     permalink: /:path/
 
 defaults:
