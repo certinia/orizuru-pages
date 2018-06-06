@@ -1,24 +1,33 @@
-<section class="sidebar">
+<section class="navbar">
     {% capture first_segment %}{{ page.url | remove_first: "/" | split: "/" | first }}{% endcapture %}
-    <a class="logo-nav-item {% if first_segment == '' %}active{% endif %}" href="{{ site.baseurl }}/">
-        <div class="logo">
-            <img src="{{ site.baseurl }}/assets/images/ffdisk.svg"/>
-            <h3 class="logo-name">{{ site.title | default: site.github.repository_name }}</h3>
-        </div>
-    </a>
+    <div class="topnav">
+        <a class="logo-nav-item nav-item {% if first_segment == '' %}active{% endif %}" href="{{ site.baseurl }}/">
+            <div class="logo">
+                <img src="{{ site.baseurl }}/assets/images/ffdisk.svg"/>
+                <h3 class="logo-name">{{ site.title | default: site.github.repository_name }}</h3>
+            </div>
+        </a>
+        <a class="nav-menu" herf="javascript:void(0);" onclick="toggleNav()">
+            
+        </a>
+    </div>
+    
     <nav>
-        <div class="nav-wrapper">
-            <h3>About</h3>
-            <a class="header-nav-item {% if first_segment == 'dreamforce' %}active{% endif %}" href="{{ site.baseurl }}/dreamforce/">Dreamforce</a> 
-            <a class="header-nav-item {% if first_segment == 'sample' %}active{% endif %}" href="{{ site.baseurl }}/sample/">Sample</a>
-        
+        <div id="main_nav" class="nav-wrapper hidden">
+            <div class="nav-group">
+                <h3>About</h3>
+                <a class="nav-item {% if first_segment == 'dreamforce' %}active{% endif %}" href="{{ site.baseurl }}/dreamforce/">Dreamforce</a> 
+                <a class="nav-item {% if first_segment == 'sample' %}active{% endif %}" href="{{ site.baseurl }}/sample/">Sample</a>
+            </div>
             <!-- TODO Make this nav wrap the doc groups when in mobile size -->
         
             {% for group in site.data.documentation.doc-groups %}
-                <h3>{{ group.title }}</h3>
-                {% for doc in group.docs %}
-                    <a class="{% if page.url == doc.url %}active{% endif %}" href="{{ doc.url }}" alt="{{ doc.title }}">{{ doc.title }}</a>
-                {% endfor %}
+                <div class="nav-group">
+                    <h3>{{ group.title }}</h3>
+                    {% for doc in group.docs %}
+                        <a class="nav-item {% if page.url == doc.url %}active{% endif %}" href="{{ doc.url }}" alt="{{ doc.title }}">{{ doc.title }}</a>
+                    {% endfor %}
+                </div>
             {% endfor %}
         </div>
     </nav>

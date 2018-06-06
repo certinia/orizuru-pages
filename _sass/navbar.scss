@@ -1,0 +1,165 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: $nav-bg-color;
+    color: $nav-fg-color;
+    font-size: 1rem;
+
+    @include large {
+        min-width: 16rem;
+    }
+
+    @include medium {
+        min-width: 14rem;
+    }
+
+    @include small {
+        min-height: 4rem;
+    }
+
+    nav {
+        padding: 0;
+
+        @include large {
+            flex: 0 0 16rem;
+        }
+    
+        @include medium {
+            flex: 0 0 14rem;
+        }
+    
+        @include small {
+        }
+    }
+}
+
+.navbar .topnav {
+    display: flex;
+
+    .nav-menu {
+        margin: 0.75rem;
+        line-height: 2.5rem;
+        width: 2.5rem;
+        background: white;
+
+        @include large {
+            display: none;
+        }
+    
+        @include medium {
+            display: none;
+        }
+    }
+}
+
+.navbar .logo-nav-item {
+    padding: 0;
+    position: fixed;
+    flex: 1;
+
+    @include large {
+        min-width: 16rem;
+    }
+
+    @include medium {
+        min-width: 14rem;
+    }
+
+    @include small {
+        position: initial;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        line-height: 2.5rem;
+        padding: 0.75rem;
+        justify-content: center;
+
+        @include small {
+            justify-content: flex-start;
+        }
+    
+        img {
+            padding: 0 0.25rem 0 0;
+            height: 2.5rem;
+        }
+    
+        .logo-name {
+            line-height: 1;
+            margin: 0;
+            font-family: $body-font, sans-serif;
+        }
+    }
+}
+
+.navbar .nav-wrapper {
+    display: inline-block;
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    padding-top: 1rem;
+    background-color: $nav-bg-color;
+    z-index: 100;
+    transition: max-height 0.5s, padding 0.25s;
+    max-height: 3000px;
+
+    @include large {
+        width: 16rem;
+    }
+
+    @include medium {
+        width: 14rem;
+    }
+
+    @include small {
+        position: absolute;
+        right: 0;
+    }
+
+    &.hidden {
+        @include small {
+            max-height: 0;
+            padding: 0;
+        }
+    }
+
+    .nav-group {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        @include small {
+        }
+
+        h1,h2,h3 {
+            margin: 0 0.75rem 0.5rem 0.75rem;
+            border-bottom: 1px solid lighten($nav-bg-color, 15%);
+            padding: 0 0.25rem 0.25rem 0.25rem;
+        }
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.nav-item {
+    padding: 0.75rem 0 0.75rem 1.5rem;
+    color: $nav-fg-color;
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+
+    &:hover {
+        color: lighten($body-link-color, 8%);
+        background: lighten($nav-bg-color, 4%);
+        text-decoration: none;
+    }
+
+    &.active {
+        color: $body-link-color;
+        pointer-events: none;
+    }
+}

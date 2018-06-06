@@ -20,4 +20,19 @@
         </script>
     {% endif %}
 
+    <script type="text/javascript">
+        function toggleNav() {
+            let nav = document.getElementById("main_nav");
+
+            if (nav.classList.contains("hidden")) {
+                nav.classList.remove("hidden");
+                document.body.classList.add("hidden");
+            } else {
+                nav.classList.add("hidden");
+                document.body.classList.remove("hidden");
+            }
+        }
+    </script>
+
+
 </head>
