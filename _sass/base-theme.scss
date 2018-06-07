@@ -68,6 +68,18 @@ a {
     flex: 1;
     flex-direction: column;
 
+    @include small {
+        margin-top: 4rem;
+    }
+
+    @include medium {
+        margin: 0;
+    }
+
+    @include large {
+        margin: 0;
+    }
+
     .main-content {
         flex: 1;
         overflow: hidden;
