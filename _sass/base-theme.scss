@@ -35,9 +35,21 @@ body {
         flex-direction: column;
     }
 
+    @include medium {
+        flex-direction: row;
+    }
+
+    @include large {
+        flex-direction: row;
+    }
+
     &.hidden {
         @include small {
             overflow: hidden;
+        }
+
+        @include medium {
+            overflow: initial;
         }
     }
 }
@@ -74,11 +86,9 @@ a {
         margin-top: 0;
     }
 
-    @include large {
-        max-width: 64rem;
-        padding: 3rem 6rem;
-        margin: 0 auto;
-        font-size: 1.1rem;
+    @include small {
+        padding: 2rem 1rem;
+        font-size: 1rem;
     }
 
     @include medium {
@@ -86,9 +96,9 @@ a {
         font-size: 1.1rem;
     }
 
-    @include small {
-        padding: 2rem 1rem;
-        font-size: 1rem;
+    @include large {
+        padding: 3rem 5rem;
+        font-size: 1.1rem;
     }
 
     img {
@@ -249,15 +259,15 @@ a {
     margin-top: 2rem;
     border-top: solid 1px $hr-border-color;
 
-    @include large {
-        font-size: 1rem;
+    @include small {
+        font-size: 0.9rem;
     }
 
     @include medium {
         font-size: 1rem;
     }
 
-    @include small {
-        font-size: 0.9rem;
+    @include large {
+        font-size: 1rem;
     }
 }

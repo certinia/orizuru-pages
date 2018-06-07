@@ -6,6 +6,11 @@
     <link rel='shortcut icon' href='{{ site.baseurl }}/assets/images/favicon.ico' />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/solid.css" 
+    integrity="sha384-Rw5qeepMFvJVEZdSo1nDQD5B6wX0m7c5Z/pLNvjkB14W6Yki1hKbSEQaX9ffUbWe" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" 
+    integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
     
     {% seo %}
     {% if site.google_analytics %}
@@ -21,18 +26,10 @@
     {% endif %}
 
     <script type="text/javascript">
-        function toggleNav() {
-            let nav = document.getElementById("main_nav");
-
-            if (nav.classList.contains("hidden")) {
-                nav.classList.remove("hidden");
-                document.body.classList.add("hidden");
-            } else {
-                nav.classList.add("hidden");
-                document.body.classList.remove("hidden");
-            }
-        }
+        function toggleNav() {let nav = document.getElementById("main_nav");
+        if(nav.classList.contains("hidden")) {nav.classList.remove("hidden");
+        document.body.classList.add("hidden");document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;}else{nav.classList.add("hidden");
+        document.body.classList.remove("hidden");}}
     </script>
-
-
 </head>
