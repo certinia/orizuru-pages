@@ -28,18 +28,6 @@
         min-width: 16rem;
         min-height: initial;
     }
-
-    nav {
-        padding: 0;
-
-        @include medium {
-            flex: 0 0 14rem;
-        }
-
-        @include large {
-            flex: 0 0 16rem;
-        }
-    }
 }
 
 .navbar .topnav {
@@ -76,23 +64,11 @@
         border-radius: 4px;
 
         @include medium {
-            position: fixed;
-            top: 0;
-            left: 0;
-
-            .fa-bars {
-                display: none;
-            }
+            display: none;
         }
 
         @include large {
-            position: fixed;
-            top: 0;
-            left: 0;
-
-            .fa-bars {
-                display: none;
-            }
+            display: none;
         }
 
         &:hover {
@@ -140,28 +116,24 @@
     }
 }
 
-.navbar .nav-wrapper {
-    display: inline-block;
+.navbar nav {
+    position: fixed;
     top: 4rem;
     left: 0;
-    bottom: 0;
-    overflow-y: auto;
+    bottom: -80px;
     padding: 0;
-    background-color: $nav-bg-color;
     transition: opacity 0.1s ease-in-out;
-    position: fixed;
+    background-color: $nav-bg-color;
 
     @include small {
         right: 0;
     }
 
     @include medium {
-        right: initial;
         width: 14rem;
     }
 
     @include large {
-        right: initial;
         width: 16rem;
     }
 
@@ -183,6 +155,14 @@
             visibility: initial;
         }
     }
+}
+
+.navbar .nav-wrapper {
+    display: block;
+    padding: 0;
+    height: 100%;
+    padding-bottom: 80px;
+    overflow-y: auto;
 
     .nav-group {
         margin-top: 1rem;
