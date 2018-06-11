@@ -45,7 +45,7 @@ packages:
       npm: https://npmjs.com/package/@financialforcedev/orizuru-openapi
 ---
 
-# Package Overview
+# Packages
 
 | Package | Links |
 |---------|:-----:|
