@@ -4,20 +4,20 @@ page-groups:
   url: /about
   pages:
     - title: Project Overview
-      url: /project-overview
+      url: /project-overview/
     - title: Packages
-      url: /packages
+      url: /packages/
     - title: Sample Application
-      url: /sample
+      url: /sample/
     - title: Dreamforce
-      url: /dreamforce
+      url: /dreamforce/
 
 - title: Tutorial
   url: /tutorial
   pages:
     - title: Prerequisites
-      url: /prerequisites
+      url: /prerequisites/
     - title: Building Your First App
-      url: /building-your-first-app
+      url: /building-your-first-app/
     - title: Troubleshooting
-      url: /troubleshooting
+      url: /troubleshooting/
