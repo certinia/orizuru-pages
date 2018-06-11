@@ -267,19 +267,21 @@ a {
 }
 
 .site-footer {
-    padding-top: 2rem;
-    margin-top: 2rem;
+    padding: 2rem 0;
     border-top: solid 1px $hr-border-color;
 
     @include small {
+        margin: 0 1rem;
         font-size: 0.9rem;
     }
 
     @include medium {
+        margin: 0 4rem;
         font-size: 1rem;
     }
 
     @include large {
+        margin: 0 5rem;
         font-size: 1rem;
     }
 }
