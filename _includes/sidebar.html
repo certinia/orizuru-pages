@@ -16,17 +16,12 @@
     
     <nav id="main_nav" class="hidden">
         <div class="nav-wrapper">
-            <div class="nav-group">
-                <h3>About</h3>
-                <a class="nav-item {% if first_segment == 'dreamforce' %}active{% endif %}" href="{{ site.baseurl }}/dreamforce/">Dreamforce</a> 
-                <a class="nav-item {% if first_segment == 'sample' %}active{% endif %}" href="{{ site.baseurl }}/sample/">Sample</a>
-            </div>
-        
-            {% for group in site.data.documentation.doc-groups %}
+            {% for group in site.data.pages.page-groups %}
                 <div class="nav-group">
                     <h3>{{ group.title }}</h3>
-                    {% for doc in group.docs %}
-                        <a class="nav-item {% if page.url == doc.url %}active{% endif %}" href="{{ doc.url }}" alt="{{ doc.title }}">{{ doc.title }}</a>
+                    {% for p in group.pages %}
+                        {% assign url = group.url | append: p.url %}
+                        <a class="nav-item {% if page.url == url %}active{% endif %}" href="{{ url }}" alt="{{ p.title }}">{{ p.title }}</a>
                     {% endfor %}
                 </div>
             {% endfor %}

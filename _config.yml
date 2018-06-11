@@ -8,9 +8,6 @@ exclude:
   - script
 
 collections:
-  docs:
-    output: true
-    permalink: /docs/:path/
   pages:
     output: true
     permalink: /:path/
@@ -22,13 +19,6 @@ defaults:
       type: pages
     values:
       layout: default
-  -
-    scope:
-      path: ""
-      type: docs
-    values:
-      layout: default
-      isDoc: true
 
 sass:
   sass_dir: _sass

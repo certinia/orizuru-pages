@@ -1,0 +1,23 @@
+page-groups:
+
+- title: About
+  url: /about
+  pages:
+    - title: Project Overview
+      url: /project-overview
+    - title: Package Overview
+      url: /package-overview
+    - title: Sample Application
+      url: /sample
+    - title: Dreamforce
+      url: /dreamforce
+
+- title: Tutorial
+  url: /tutorial
+  pages:
+    - title: Prerequisites
+      url: /prerequisites
+    - title: Building Your First App
+      url: /building-your-first-app
+    - title: Troubleshooting
+      url: /troubleshooting
