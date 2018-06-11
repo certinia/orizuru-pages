@@ -5,7 +5,7 @@
 
 ## Introduction
 In under 10 minutes, you can build your own Node.js Heroku application connected to the Lightning Platform.
-Make sure you have completed all of the [prerequisites](/docs/prerequisites/).
+Make sure you have completed all of the [prerequisites](/tutorial/prerequisites/).
 
 Don't worry if you're unfamiliar with Node.js, this tutorial won't include a detailed walk-through of the generated source code - but we'll provide code snippets as and when you need them!
 
@@ -20,7 +20,7 @@ If your Orizuru version is below 2.0.3, then update to the latest version using 
 npm update @financialforcedev/orizuru-tools --global
 ```
 
-If you have any issues during this tutorial, check out the [troubleshooting](/docs/troubleshooting/) page.
+If you have any issues during this tutorial, check out the [troubleshooting](/tutorial/troubleshooting/) page.
 If you're still having problems, [check if similar issues have already been raised in GitHub](https://github.com/financialforcedev/orizuru-tools/issues).
 If you encounter an issue that hasn't been raised before, then go right ahead and create a New Issue.
 
