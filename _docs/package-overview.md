@@ -27,7 +27,7 @@ packages:
     - name: Orizuru Transport RabbitMQ
       lang: Java
       desc: Transport layer that uses AMQP as the message broker
-      gh: https://github.com/financialforcedev/orizuru-transport-mq-java
+      gh: https://github.com/financialforcedev/orizuru-transport-rabbitmq-java
     - name: Orizuru Transport Redis
       lang: Node.js
       desc: Transport layer that uses Redis as the message broker
@@ -36,8 +36,8 @@ packages:
     - name: Orizuru Transport Kafka
       lang: Node.js
       desc: Transport layer that uses Kafka as the message broker
-      gh: https://github.com/financialforcedev/orizuru-kafka
-      npm: https://npmjs.com/package/@financialforcedev/orizuru-kafka
+      gh: https://github.com/financialforcedev/orizuru-transport-kafka
+      npm: https://npmjs.com/package/@financialforcedev/orizuru-transport-kafka
     - name: Orizuru Open API
       lang: Node.js
       desc: Generates OpenAPI documents from Avro schemas
