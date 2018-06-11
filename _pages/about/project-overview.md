@@ -1,7 +1,7 @@
 ---
 ---
 
-# Introduction
+# Project Overview
 Orizuru is a project that helps you build solutions that span Heroku and the Lightning Platform, to get the best of both worlds.
 
 ## Two Platforms
